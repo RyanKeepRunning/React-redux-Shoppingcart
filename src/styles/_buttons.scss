@@ -1,0 +1,11 @@
+@import './variables';
+button {
+    background-color: $buttonColor;
+    color:$buttonFontColor;
+    &:hover{
+        background-color:$backgroundGeneral;
+        color:$hoverColor;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+}
