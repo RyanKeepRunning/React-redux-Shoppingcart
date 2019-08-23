@@ -8,7 +8,7 @@ class Item extends Component {
     render(){
         const {item,index} = this.props;
         return(
-            <li onClick={()=>this.props.deleteItem(index)}>{`Item:${item.name} Quantity:${item.quantity}`}</li>
+            <li className='item' onClick={()=>this.props.deleteItem(index)}>{`Item:${item.name} Quantity:${item.quantity}`}</li>
         )
     }
 }

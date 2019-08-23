@@ -1,0 +1,22 @@
+@import './variables';
+@import './items';
+@import './buttons';
+
+@mixin flexContainer($direction) {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin textCenter {
+    text-align: center;
+}
+
+.jumbotron {
+    @include flexContainer(column);
+}
+.title {
+    @include textCenter();
+}
+

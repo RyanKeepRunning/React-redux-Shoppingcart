@@ -31,7 +31,7 @@ class Operations extends Component {
                         <input placeholder='quantity' className='form-control' type='number' value={this.state.quantity} name='quantity' onChange={this.handleChange}/>
                     </div>
                     <div className='col-4 text-center'>
-                        <button className='btn btn-primary' onClick={()=>addItem(this.state.name,this.state.quantity)}>Add</button>
+                        <button onClick={()=>addItem(this.state.name,this.state.quantity)}>Add</button>
                     </div>
                 </div>
             </div>

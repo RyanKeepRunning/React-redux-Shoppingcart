@@ -1,0 +1,9 @@
+@import './variables';
+.item {
+    color: $itemColor;
+    font-size: $itemSize;
+    &:hover{
+        color:$hoverColor;
+        cursor: pointer;
+    }
+}

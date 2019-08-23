@@ -3,12 +3,10 @@ class Title extends Component {
     render(){
         return(
             <div className='container'>
-                <div className='jumbotron'>
-                    <div className='row'>
-                        <div className='col-lg-12 text-center'>Welcome</div>
-                        <div className='col-lg-12 text-center'>Buddy</div>
-                        <div className='col-lg-12 text-center'>This is a demo redux-shoppingcart</div>
-                    </div>
+                <div className='jumbotron title'>
+                    <span>Welcome</span>
+                    <span>Buddy</span>
+                    <span>This is a demo redux-shoppingcart</span>
                 </div>
             </div>
         )
